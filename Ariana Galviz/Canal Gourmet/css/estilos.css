@@ -1,0 +1,390 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Helvetica, sans-serif;
+}
+
+.contotal {
+	width: 100%;
+}
+
+
+// -----------------------------------HEADER--------------------------
+
+
+header {
+	width: 100%;
+}
+header .cont-menu{
+	width: 100%;
+	background-image: url(../media/menufondo.jpg);
+	background-size:cover;
+}
+
+header .logo{
+	width: 22.3%;
+}
+
+header .logo img {
+	width: 100%;
+}
+
+
+header .menu{
+	width: 71%;
+	margin-left: 24%;
+	margin-top: -90px;
+}
+
+header .menu nav{
+	padding: 10px;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background: #fff;
+}
+
+header .menu nav a{
+	font-size: 24px;
+	color: #66707F;
+	text-decoration: none;
+	display: block;
+	padding: 5px 10px;
+}
+
+header .menu nav a:hover{
+	color: #E8501D;
+}
+
+header .cont-slides{
+	width: 100%;
+	margin-top: 40px;
+}
+
+header .cont-slides .slides {
+	width: 80%;
+	margin: 1px auto;
+}
+
+header .cont-slides .slides img{
+	width: 100%;
+}
+
+.slidesjs-pagination{
+	list-style: none;
+	overflow: hidden;
+}
+
+.slidesjs-pagination li{
+	float:left;
+}
+.slidesjs-pagination li a{
+	display: block;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.slidesjs-pagination li a:hover{
+	background-color: #ccc;
+}
+
+.slides .active{
+	background-color: #ccc;
+}
+
+.slidesjs-navigation{
+	color: #66707F;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 20px;
+	float: right;
+}
+
+
+//	-----------------------------MAIN-----------------------------
+
+//_____________PROGRAMAS______________
+
+.programas{
+	width: 100%;
+}
+
+.programas .cont-programas {
+	background-image: url(../media/programasfondo.jpg);
+	background-size: cover;
+	border: 2px solid rgba(255,255,255, 0);
+}
+
+.programas .cont-programas .titulo{
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-bottom: 50px;
+	position: relative;
+	top: 30px;
+}
+
+.programas .cont-programas .titulo h2{
+	font-size: 70px;
+	color: #E8501D;
+	font-weight: 400;
+}
+
+.programas .cont-programas .slide2{
+	width: 100%;
+	height: 330px;
+	position: relative;
+	top: 71px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.programas .cont-programas .slide2 .dos{
+	width: 100%;
+	margin-bottom: 130px;
+	position: relative;
+	top: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.programas .cont-programas .slide2 .img {
+	overflow: hidden;
+	width: 25%;
+}
+
+.programas .cont-programas .slide2 .img img{
+	width: 100%;
+}
+
+.programas .cont-programas .slide2 .img p{
+	color: rgba(0,0,0,0);
+	display: block;
+	padding: 10px;
+	background-color:rgba(0,0,0,0) ;
+	position: relative;
+	bottom: 40px;
+	text-align: center;
+}
+.programas .cont-programas .slide2 .img p:hover{
+	color: #000;
+	display: block;
+	padding: 10px;
+	background-color:#E8501D ;
+	position: relative;
+	bottom: 40px;
+	text-align: center;
+}
+
+.programas .cont-programas .info{
+	width: 100%;
+}
+
+.programas .cont-programas .info .texto{
+	width: 60%;
+	margin-left: 50px;
+	margin-bottom: 80px;
+	margin-top: 100px;
+}
+
+.programas .cont-programas .info .texto p{
+	color: #fff;
+	font-size: 22px;
+}
+
+
+// ______________RECETAS________________
+
+.recetas{
+	width: 100%;
+}
+.recetas .contenedorecetas{
+	width: 100%;
+	background-color: #cbcbcb;
+	border: 2px solid rgba(255,255,255,0);
+}
+
+.recetas .contenedorecetas .titulo {
+	margin-left: 75%;
+	position: relative;
+	top: 20px;
+}
+.recetas .contenedorecetas .titulo h2{
+	font-size: 70px;
+	color: #66707F;
+	font-weight: 400;
+}
+
+.recetas .contenedorecetas .recet{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 80px;
+	margin-bottom: 100px;
+}
+
+.recetas .contenedorecetas .recet .re{
+	width: 30%;
+}
+
+.recetas .contenedorecetas .recet .si{
+	border-right: 2px solid rgba(255,255,255, .4);
+}
+
+.recetas .contenedorecetas .recet .re p{
+	font-size: 20px;
+	display: block;
+	padding: 20px;
+	color: #66707F;
+}
+
+.recetas .contenedorecetas .recet .re p span{
+	color: #E8501D;
+}
+//________________EN VIVO________________
+
+.envivo{
+	width: 100%;
+
+}
+
+.envivo .cont-envivo {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	text-align: center;
+	background-image: url(../media/envivofondo.jpg);
+	background-size: cover;
+}
+
+.envivo .cont-envivo .titulo{
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+.envivo .cont-envivo .titulo h2{
+	font-size: 70px;
+	color: #E8501D;
+	font-weight: 400;
+}
+
+.envivo .cont-envivo .vid{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	bottom: 10px;
+}
+
+.envivo .cont-envivo .vid .videocentro{
+	width: 68%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+
+.envivo .cont-envivo .vid .videocentro iframe{
+	width: 800px;
+	height: 450px;
+}
+
+.envivo .cont-envivo .vid .listavideos {
+	width: 32%;
+	overflow: hidden;
+}
+
+.envivo .cont-envivo .vid .listavideos .videos{
+	width: 80%;
+	float: right;
+}
+
+.envivo .cont-envivo .vid .listavideos .videos iframe{
+	width: 320px;
+	height: 180px;
+}
+
+
+
+//------------------FOOTER------------------
+
+footer{
+	width: 100%;
+}
+
+footer .cont-footer{
+	width: 100%;
+}
+
+footer .cont-footer .cont-logo{
+	width: 100%;
+	background-color: #cbcbcb;
+}
+
+footer .cont-footer .cont-logo .logo{
+	width: 300px;
+	height: 300px;
+	margin: 0px auto;
+}
+
+footer .cont-footer .cont-logo .logo img{
+	width: 100%;
+}
+
+footer .cont-footer .cont-texto{
+	width: 100%;
+	background-color: #E8501D;
+}
+
+footer .cont-footer .cont-texto .texto{
+	width: 34%;
+	margin: 0px auto;
+	padding: 30px 0px;
+}
+
+footer .cont-footer .cont-texto .texto p{
+	font-family: Helvetica;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	text-align: center;
+}
+
+footer .cont-footer .cont-final{
+	width: 100%;
+}
+
+footer .cont-footer .cont-final .final{
+	width: 100%;
+}
+
+footer .cont-footer .cont-final .final img{
+	width: 100%;
+}
+
+
+
+
+//MEDIA QUERIES______________________________________________
+
+@media screen and (max-width: 768px) {
+	
+	header .menu nav a{
+		font-size: 20px;
+		padding: 5px;
+	}
+	
+}

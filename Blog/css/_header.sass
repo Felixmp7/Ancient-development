@@ -1,0 +1,55 @@
+header
+	.logo
+		padding-top: 1.25em
+		padding-bottom: 1.25em
+		a
+			display: inline-block
+	.redes
+		text-align: right
+		line-height: 5em
+		a
+			border-radius: 50%
+			width: 2.5em
+			height: 2.5em
+			line-height: 2.5em
+			text-align: center
+			display: inline-block
+			background: navy
+			color: #fff
+			margin-left: 1.25em
+			&.youtube
+				background: #c05554
+			&.facebook
+				background: #3b5998
+			&.instagram
+				background: linear-gradient(60deg,#ee9515,#8024a3)
+			&:hover
+				&.youtube
+					background: #fff
+					color: #c05554
+				&.facebook
+					background: #fff
+					color: #3b5998
+				&.instagram
+					background: #fff
+					color: #000
+	.menu
+		font-family: $font-family
+		background: $azulpri
+		margin-bottom: 1.25em
+		ul
+			list-style: none
+			overflow: hidden
+			margin: 0
+			padding: 0
+			li
+				float: left
+				display: inline-block
+				a
+					color: #fff
+					display: inline-block
+					padding: 1em 1.25em
+					font-size: 1em
+					&:hover
+						text-decoration: none
+						background: $azulsec

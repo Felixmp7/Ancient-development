@@ -1,0 +1,173 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: "OpenSans";
+	src:url('fonts/OpenSans-Regular.ttf');
+}
+
+body{
+	font-family: "OpenSans", Arial, Sans-serif;
+	font-size: 14px;
+	background: url('img/fondo.jpg');
+	background-size: cover;
+	/*background-attachment: fixed;*/
+}
+
+.contenedor {
+	margin:auto;
+	/*margin: 20px;*/
+	width: 90%;
+	max-width: 1000px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+header {
+	width: 100%;
+	padding: 50px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+header .logo img {
+	width: 100px;
+}
+header .menu a {
+	text-decoration: none;
+	color: #BCC4DB;
+	margin-right: 40px;
+	font-size: 18px;
+}
+
+header .menu a:hover {
+	text-decoration: underline;
+	color: #fff;
+}
+
+.main {
+	background: #fff;
+	padding: 20px;
+	width: 70%;
+}
+
+.main .ima img {
+	width: 100%;
+	vertical-align: top;
+}
+
+.main article .ima {
+	margin-bottom: 20px;
+}
+
+.main article h2 {
+	font-weight: normal;
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+
+.main article p {
+	font-size: 14px;
+	margin-bottom: 20px;
+	line-height: 27px;
+}
+
+aside {
+	width: 30%;
+	background: #7880B5;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+aside .pub {
+	color: #fff;
+	background:#6987C9;
+	padding: 20px;
+	/*margin-bottom: 20px;*/
+	font-size: 30px;
+	text-align: center;
+}
+
+footer {
+	margin: 20px 0px;
+	background: rgba(255,255,255, .2);
+	padding: 20px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer .autor {
+	color: #fff;
+	font-size: 20px;
+}
+
+footer .redes a {
+	color: #fff;
+	text-decoration: none;
+	margin-right: 15px;
+}
+
+footer .redes a:hover {
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 800px) {
+	.main {
+		width: 100%;
+	}
+
+	aside{
+		width: 100%;
+		flex-direction: row;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	header {
+		flex-direction: column;
+		padding-bottom:20px;
+	}
+	header .menu {
+		width: 100%;
+		padding: 20px;
+		text-align: center;
+		background: rgba(255,255,255, .2);
+	}
+	header .logo {
+		margin-bottom: 20px;
+	}
+
+	header .menu a {
+		margin: 0px 10px;
+	}
+
+	aside .pub {
+		font-size: 20px;
+	}
+
+	footer {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	footer .redes {
+		order: 1;
+	}
+
+	footer .autor {
+		order: 2;
+		font-size: 18px;
+		margin-top: 10px;
+	}
+}

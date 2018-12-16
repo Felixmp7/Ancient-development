@@ -1,0 +1,294 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing-: border-box;
+	-moz-box-sizing-: border-box;
+	-ms-box-sizing-: border-box;
+	-o-box-sizing-: border-box;
+	box-sizing-: border-box;
+}
+
+body {
+	font-family: 'Raleway', Arial, sans-serif;
+	background-image:url(../media/fondob.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	font-size: 18px;
+}
+
+.contenedor {
+	width: 90%;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+/*_____________________________________ENCABEZADO______________________________________*/
+.encabezado{
+	width: 100%;
+	background: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 5px;
+}
+
+.menu {
+	display: inline-block;
+	width: 65%;
+	height: 56px;
+
+}
+
+nav {
+	text-align: center;
+	padding: 10px 0px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+nav a {
+	font-weight: 500;
+	font-size: 24px;
+	text-decoration: none;
+	color: #000;
+	display:block;
+	padding: 5px;
+	border-bottom: 5px solid #fff;
+	border-radius: 3px;
+}
+
+nav a:hover{
+	border-bottom: 3px solid #01A3AD;
+	font-weight: 600;
+}
+
+.logotipo img {
+	width: 300px;
+	margin-top: 30px;
+}
+
+/*___________________________________________MAIN__________________________________________*/
+
+.main {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.main .img {
+	width: 100%;
+}
+
+.img img{
+	width: 100%;
+	border-radius: 5px;
+}
+
+.main .contenido {
+	width: 100%;
+}
+
+.main .contenido .bienvenidos{
+	box-sizing: border-box;
+	width: 100%;
+	background: rgba(255,255,255, .97);
+	padding: 10px;
+	margin-top: 20px;
+	border-radius: 5px;
+	text-align: justify;
+}
+
+.main .contenido .bienvenidos .subTituloBienvenidos{
+	font-size: 36px;
+}
+
+.main .contenido .bienvenidos .textBienvenidos {
+	font-size: 22px;
+}
+
+.main .contenido .bloques {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:space-around;
+	margin-top: 20px;
+	background: rgba(225, 225, 225 ,.5);
+	border-radius: 5px;
+}
+
+.main .bloques .bloque{
+	width: 28%;
+	margin: 20px 0px;
+	padding: 10px;
+	border: 3px solid rgba(0,0,0, .5);
+	border-radius: 5px;
+	background: rgba(255,255,255, .93);
+}
+
+.main .bloques .bloque:hover {
+	background: #fff;
+}
+
+h2, .h3bloques {
+	text-align: center;
+}
+
+.contenido .bloques h2{
+	width: 100%;
+	margin-bottom: 10px;
+	display: block;
+	padding: 10px 0px;
+	background-color: rgba(1, 163, 173, 1);
+	border-radius: 5px;
+	color: #fff;
+}
+
+.h3bloques {
+	display: block;
+	padding: 5px;
+	border-radius: 5px;
+	background-color:rgba(1, 163, 173, .1);
+}
+
+.texto {
+	text-align: justify;
+}
+
+p {
+	font-weight: 500;
+	display: block;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.contenido .imgCompañia img {
+	box-sizing: border-box;
+	width: 100%;
+	border-radius: 65px 12px 0px 10px;
+	margin-top: 20px;
+}
+.contenido .compañia {
+	box-sizing: border-box;
+	width: 100%;
+	margin-top: 20px;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	border-radius: 5px 5px 0px 0px;
+	background: #fff;
+}
+
+.contenido .compañia .quienes{
+	width: 31%;
+	padding: 10px;
+	text-align: justify;
+}
+
+.contenido .compañia .mision{
+	width: 60%;
+	padding: 10px;
+	text-align: justify;
+}
+
+span {
+	color: #123456;
+	text-decoration: underline;
+}
+
+.contenido .compañia .bloq h2 {
+	width: 100%;
+	background: #ccc;
+	display: block;
+	padding: 10px 0;
+	border-radius: 3px;
+}
+
+.contenido .compañia .contenedorPorque {
+	width: 100%;
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+.contenido .compañia .contenedorPorque h2 {
+	width: 100%;
+	background: #ccc;
+	display: block;
+	padding: 10px 0;
+	border-radius: 3px;
+}
+
+.contenido .compañia .contenedorPorque .tx {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.contenido .compañia .contenedorPorque .tx p {
+	padding: 10px;
+	text-align: center;
+}
+
+.contenido .compañia .contenedorPorque .imagenLista {
+	width: 45%;
+}
+
+.contenido .compañia .contenedorPorque .imagenLista img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.contenido .compañia .contenedorPorque .lista{
+	width: 45%;
+	margin-top: 40px;
+}
+
+.contenido .compañia .contenedorPorque .imagenAside {
+	width: 45%;
+	margin-top: 20px;
+}
+
+.contenido .compañia .contenedorPorque .imagenAside img {
+	width: 100%;
+	border-radius: 10px 5px 30px 0px;
+}
+
+.contenido .compañia .contenedorPorque .aside {
+	width: 45%;
+	margin-top: 20px;
+}
+
+.contenido .compañia .contenedorPorque .aside ul{
+	text-align: center;
+	font-size: 30px;
+	/*list-style-image: url('../media/success.png');*/
+	list-style: none;
+}
+
+.contenido .cambio {
+	width: 100%;
+	height: 100px;
+	background: rgba(255,255,255,1);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0.98) 20%, rgba(219,241,255,0.95) 54%, rgba(1,164,173,0.91) 89%, rgba(1,164,173,0.9) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(20%, rgba(255,255,255,0.98)), color-stop(54%, rgba(219,241,255,0.95)), color-stop(89%, rgba(1,164,173,0.91)), color-stop(100%, rgba(1,164,173,0.9)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0.98) 20%, rgba(219,241,255,0.95) 54%, rgba(1,164,173,0.91) 89%, rgba(1,164,173,0.9) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0.98) 20%, rgba(219,241,255,0.95) 54%, rgba(1,164,173,0.91) 89%, rgba(1,164,173,0.9) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0.98) 20%, rgba(219,241,255,0.95) 54%, rgba(1,164,173,0.91) 89%, rgba(1,164,173,0.9) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0.98) 20%, rgba(219,241,255,0.95) 54%, rgba(1,164,173,0.91) 89%, rgba(1,164,173,0.9) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#01a4ad', GradientType=0 );
+}
+
+.contenido .servicios {
+	width: 100%;
+	height: 200px;
+	background-color:rgba(1, 163, 173, .95); 
+	border-radius: 0px 0px 5px 5px;
+}

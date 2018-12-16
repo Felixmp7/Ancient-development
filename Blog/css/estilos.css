@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #f2f2f2;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px; }
+
+.ad {
+  margin-bottom: 1.25em;
+  text-align: center; }
+
+li a {
+  color: #5f6ad4; }
+
+header .logo {
+  padding-top: 1.25em;
+  padding-bottom: 1.25em; }
+  header .logo a {
+    display: inline-block; }
+header .redes {
+  text-align: right;
+  line-height: 5em; }
+  header .redes a {
+    border-radius: 50%;
+    width: 2.5em;
+    height: 2.5em;
+    line-height: 2.5em;
+    text-align: center;
+    display: inline-block;
+    background: navy;
+    color: #fff;
+    margin-left: 1.25em; }
+    header .redes a.youtube {
+      background: #c05554; }
+    header .redes a.facebook {
+      background: #3b5998; }
+    header .redes a.instagram {
+      background: linear-gradient(60deg, #ee9515, #8024a3); }
+    header .redes a:hover.youtube {
+      background: #fff;
+      color: #c05554; }
+    header .redes a:hover.facebook {
+      background: #fff;
+      color: #3b5998; }
+    header .redes a:hover.instagram {
+      background: #fff;
+      color: #000; }
+header .menu {
+  font-family: "Open Sans", sans-serif;
+  background: #5f6ad4;
+  margin-bottom: 1.25em; }
+  header .menu ul {
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0; }
+    header .menu ul li {
+      float: left;
+      display: inline-block; }
+      header .menu ul li a {
+        color: #fff;
+        display: inline-block;
+        padding: 1em 1.25em;
+        font-size: 1em; }
+        header .menu ul li a:hover {
+          text-decoration: none;
+          background: #7780da; }
+
+.main .titulo-seccion h3, .sidebar .titulo-seccion h3 {
+  font-family: "Dosis", sans-serif;
+  font-size: 1.8em;
+  line-height: 1.5em;
+  font-weight: 600;
+  color: #3b3b3b;
+  padding-bottom: 0.32em;
+  border-bottom: 4px solid #48b04d;
+  margin-bottom: 1.25em; }
+
+.main .titulo-seccion > div {
+  padding: 0; }
+.main .single_post .categorias {
+  margin-bottom: 1.25em; }
+.main .posts {
+  font-family: "Open Sans", sans-serif; }
+  .main .posts .post {
+    margin-bottom: 1.75em; }
+    .main .posts .post .contenedor {
+      background: #fff;
+      -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3); }
+      .main .posts .post .contenedor .thumb img {
+        width: 100%;
+        vertical-align: top;
+        height: auto; }
+      .main .posts .post .contenedor .info {
+        padding: 1.25em; }
+        .main .posts .post .contenedor .info .titulo {
+          line-height: 1.125em;
+          margin-bottom: 1.25em;
+          font-size: 1.125em;
+          font-weight: bold;
+          margin-top: 0; }
+          .main .posts .post .contenedor .info .titulo a {
+            color: #3b3b3b; }
+        .main .posts .post .contenedor .info .fecha {
+          color: #909090;
+          font-size: 0.875em;
+          margin-bottom: 1.25em; }
+        .main .posts .post .contenedor .info .extracto {
+          color: #292929;
+          font-size: 1em;
+          height: 8.25em;
+          max-height: 8.25em;
+          line-height: 1.75em;
+          margin-bottom: 1.25em;
+          overflow: hidden; }
+          .main .posts .post .contenedor .info .extracto:hover {
+            overflow: auto; }
+        .main .posts .post .contenedor .info .categorias ul {
+          list-style: none; }
+          .main .posts .post .contenedor .info .categorias ul li {
+            display: inline-block; }
+        .main .posts .post .contenedor .info .categorias a {
+          color: #909090;
+          font-size: 1em;
+          font-weight: bold;
+          margin-right: 1.25em; }
+          .main .posts .post .contenedor .info .categorias a:hover {
+            color: #5f6ad4;
+            text-decoration: none; }
+.main .paginacion ul {
+  list-style: none;
+  overflow: hidden;
+  margin-bottom: 1.25em;
+  font-size: 1em; }
+  .main .paginacion ul li {
+    float: left;
+    background: #3b3b3b;
+    color: #fff;
+    margin-right: 0.62em;
+    font-size: 1.125em;
+    line-height: 1.125em; }
+    .main .paginacion ul li.disabled {
+      padding: 0.62em 0.937em;
+      font-size: 1.125em;
+      line-height: 1.125em; }
+    .main .paginacion ul li a {
+      background: #5f6ad4;
+      color: #fff;
+      font-size: 1.125em;
+      line-height: 1.125em;
+      display: inline-block;
+      padding: 0.62em 0.937em; }
+      .main .paginacion ul li a:hover {
+        background: #7780da;
+        text-decoration: none; }
+.main .paginacion .wp-pagenavi {
+  margin-bottom: 1.25em; }
+  .main .paginacion .wp-pagenavi .pages, .main .paginacion .wp-pagenavi span {
+    background: #3b3b3b;
+    color: #fff;
+    font-size: 1.125em;
+    margin-right: 0.62em;
+    line-height: 1.125em;
+    padding: 0.62em 0.937em; }
+  .main .paginacion .wp-pagenavi a {
+    background: #5f6ad4;
+    color: #fff;
+    font-size: 1.125em;
+    display: inline-block;
+    padding: 0.62em 0.937em;
+    margin-right: 0.62em; }
+    .main .paginacion .wp-pagenavi a:hover {
+      background: #7780da;
+      text-decoration: none; }
+
+.sidebar {
+  font-family: "Open Sans", sans-serif; }
+  .sidebar .widget {
+    margin-bottom: 2.5em; }
+    .sidebar .widget.redes-sociales {
+      overflow: hidden; }
+      .sidebar .widget.redes-sociales a {
+        float: left;
+        width: 33.3333%;
+        padding: 1.25em;
+        text-align: center;
+        background: #000;
+        color: #fff;
+        font-size: 1.125em;
+        display: inline-block;
+        text-decoration: none; }
+        .sidebar .widget.redes-sociales a.youtube {
+          background: #c05554; }
+        .sidebar .widget.redes-sociales a.facebook {
+          background: #3b5998; }
+        .sidebar .widget.redes-sociales a.instagram {
+          background: linear-gradient(60deg, #ee9515, #8024a3); }
+        .sidebar .widget.redes-sociales a i {
+          font-size: 1.85em;
+          margin-bottom: 10px;
+          width: 100%; }
+    .sidebar .widget.boletin .formulario {
+      background: #0e2b37;
+      padding: 1.25em;
+      text-align: center; }
+      .sidebar .widget.boletin .formulario label {
+        font-weight: normal;
+        color: #fff;
+        margin-bottom: 1.25em;
+        display: block; }
+      .sidebar .widget.boletin .formulario input[type="email"] {
+        color: #909090;
+        text-align: center;
+        padding: 0.65em;
+        font-size: 1.125em;
+        border-radius: 3px;
+        width: 100%;
+        border: none;
+        margin-bottom: 1.125em; }
+      .sidebar .widget.boletin .formulario input[type="submit"] {
+        background: #48b04d;
+        color: #fff;
+        border-radius: 3px;
+        border: none;
+        padding: 0.625em 1.875em; }
+    .sidebar .widget .contenedor-ad {
+      text-align: center; }
+      .sidebar .widget .contenedor-ad a {
+        display: inline-block; }
+
+footer {
+  font-family: "Open Sans", sans-serif; }
+  footer .menu {
+    font-family: "Open Sans", sans-serif;
+    background: #5f6ad4;
+    margin-bottom: 1.25em; }
+    footer .menu ul {
+      list-style: none;
+      overflow: hidden;
+      margin: 0;
+      padding: 0; }
+      footer .menu ul li {
+        float: left;
+        display: inline-block; }
+        footer .menu ul li a {
+          color: #fff;
+          display: inline-block;
+          padding: 1em 1.25em;
+          font-size: 1em; }
+          footer .menu ul li a:hover {
+            text-decoration: none;
+            background: #7780da; }
+  footer .copyrigth p {
+    font-size: 1em;
+    color: #000;
+    padding: 0.625em;
+    text-align: center; }
+
+@media screen and (max-width: 766px) {
+  header .logo {
+    text-align: center; }
+  header .redes {
+    display: none; }
+  header .menu ul {
+    text-align: center; }
+    header .menu ul li {
+      float: none; }
+
+  .main .posts .post .contenedor .info .extracto {
+    height: auto; }
+
+  .sidebar {
+    display: none; }
+
+  footer .menu ul {
+    text-align: center; }
+    footer .menu ul li {
+      float: none; } }
+
+/*# sourceMappingURL=estilos.css.map */
