@@ -35,7 +35,7 @@
 
 			<!--____________________________MAIN________________________________-->
 
-			<i class="fa fa-bars burger-menu"></i>
+			<i id="burger-menu" class="fa fa-bars burger-menu"></i>
 			<section class="main">
 					<section class="acerca">
 						<div class="contenedor">
@@ -117,5 +117,13 @@
 				</section>
 			</footer>
 
+	<script type="text/javascript">
+		const menu = document.querySelector('.menu')
+		const burgerButton = document.querySelector('#burger-menu')
+
+		burgerButton.addEventListener('click', function() {
+			menu.classList.toggle('is-active')
+		})
+	</script>
 	</body>
 	</html>
