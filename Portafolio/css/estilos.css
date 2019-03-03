@@ -309,12 +309,19 @@ footer .redes .instagram:hover {
 
 @media screen and (max-width: 500px) {
 	header .menu {
-		text-align: center;
-		margin-bottom: -120px;
-		margin-top: 50px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		position: fixed;
+		top: 60px;
+		left: -100vw;
+		transition: .3s;
+	}
+	.menu.is-active {
+		left: 8px;
 	}
 	header .menu a {
-		margin:0px 10px;
+		text-align: left;
 	}
 
 	header .contenedortexto .texto {
