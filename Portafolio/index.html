@@ -121,9 +121,20 @@
 		const menu = document.querySelector('.menu')
 		const burgerButton = document.querySelector('#burger-menu')
 
-		burgerButton.addEventListener('click', function() {
+		const phone = window.matchMedia('screen and (max-width: 500px)')
+		phone.addListener(validation)
+		function validation(evento){
+			if (evento.matches) {
+				burgerButton.addEventListener('click', show)
+			}
+			else{
+				burgerButton.removeEventListener('click', show)
+			}
+		}
+
+		function show(){
 			menu.classList.toggle('is-active')
-		})
+		}
 	</script>
 	</body>
 	</html>
