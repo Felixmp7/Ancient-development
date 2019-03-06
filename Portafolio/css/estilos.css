@@ -125,7 +125,7 @@ header .contenedortexto .profesion {
 	padding: 10px;
 	/* background-color: rgba(0, 0, 0, .8); */
 	color: white;
-	position: fixed;
+	position: absolute;
 	top: 40px;
 	left: 20px;
 	font-size: 1.3em;
